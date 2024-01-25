@@ -1,1 +1,1 @@
-My solution to the flexbox landing page exercise in The Odin Project
+My solution to The Odin Project's flexbox landing page exercise
