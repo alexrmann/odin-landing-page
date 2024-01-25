@@ -1,0 +1,264 @@
+/*
+~~~ 
+GLOBAL STYLES
+~~~ 
+*/
+
+/* Need to add fonts */
+
+:root {
+    --off-white: #F9FAF8;
+    --grey-light: #E5E7EB;
+    --blue-dark: #1F2937;
+    --blue-light: #3882F6;
+
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex--row {
+    flex-direction: row;
+}
+
+.flex--column {
+    flex-direction: column;
+}
+
+/* 
+~~~
+HEADER STYLES
+~~~
+*/
+
+header {
+    background-color: var(--blue-dark);
+    color: var(--off-white);
+    padding: 2rem 0;
+}
+
+.flex--nav {
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.nav {
+    font-size: 1.8rem;
+    color: var(--grey-light);
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.nav--list {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav--item {}
+
+/* 
+~~~
+MAIN STYLES
+~~~ 
+*/
+
+main {}
+
+/* Hero Section*/
+
+.hero {
+    background-color: var(--blue-dark);
+    padding: 10em 0;
+}
+
+.flex--hero {
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.hero--text {
+    color: var(--off-white);
+    width: 40%;
+}
+
+.hero--text h1 {
+    font-size: 4.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.hero--text p {
+    font-size: 1.8rem;
+    color: var(--grey-light);
+    margin: 1em 0;
+    padding: 0;
+}
+
+.hero--btn-signup {
+    margin: 0;
+    background-color: var(--blue-light);
+    color: var(--off-white);
+    border: none;
+    border-radius: 1rem;
+    padding: .5em 2em;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.hero--img {
+    background-color: var(--grey-light);
+    padding: 100px;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.hero--img-text {
+    color: var(--blue-dark);
+    font-size: 1.6rem;
+}
+
+/* Feature Items Section*/
+
+.features {
+    color: var(--blue-dark);
+    margin: 8rem 0;
+}
+
+.features > .flex {
+    gap: 4rem;
+}
+
+.features h2 {
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 0;
+}
+
+.items {
+    display: flex;
+    gap: 4rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+}
+
+.item--img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid var(--blue-light);
+    border-radius: 1rem;
+}
+
+.item--desc {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+/* Quote Section*/
+
+.quote {
+    background-color: var(--grey-light);
+    padding: 8em;
+}
+
+figure {
+    width: 70%;
+    margin: 0;
+}
+
+blockquote {
+    font-size: 3.6rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--blue-dark);
+    margin: 0 0 1em 0;
+}
+
+figcaption {
+    text-align: right;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+/* Call to Action Section*/
+
+.cta {
+}
+
+.cta--box {
+    color: var(--off-white);
+    background-color: var(--blue-light);
+    border-radius: 1rem;
+    margin: 8em 0;
+    padding: 4em;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+}
+
+.cta--box h2 {
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.cta--box p {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.cta--btn-signup {
+    margin: 0;
+    background-color: var(--blue-light);
+    color: var(--off-white);
+    border: 2px solid var(--off-white);
+    border-radius: 1rem;
+    padding: .5em 2em;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* 
+~~~
+FOOTER STYLES 
+~~~ 
+*/
+
+footer {
+    background-color: var(--blue-dark);
+    color: var(--off-white);
+    font-size: 1.6rem;
+    padding: 4rem;
+}
