@@ -138,7 +138,6 @@ main {}
     background-color: var(--grey-light);
     padding: 100px;
     width: 50%;
-    border: 1px solid red;
 }
 
 .hero--img-text {
